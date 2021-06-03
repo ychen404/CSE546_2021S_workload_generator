@@ -29,5 +29,4 @@ test_11.JPEG uploaded!
 (test_93, church)
 (test_85, carton)
 (test_11, custard apple)
-
 ```
