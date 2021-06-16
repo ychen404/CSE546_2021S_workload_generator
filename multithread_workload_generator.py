@@ -28,7 +28,7 @@ def send_one_request(image_path):
 
 num_request = args.num_request
 image_folder = args.image_folder
-num_max_workers = 10 
+num_max_workers = 20 
 image_path_list = []
 
 # loop through all the images and store their paths into an array
