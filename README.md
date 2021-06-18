@@ -24,11 +24,11 @@ To send requests using multiple threads, you can use multithread_workload_genera
 Sample output:
 ```
 test_93.JPEG uploaded!
-(test_93, church)
+Classification result: church
 
 test_85.JPEG uploaded!
-(test_85, carton)
+Classification result: carton
 
 test_11.JPEG uploaded!
-(test_11, custard apple)
+Classification result: custard apple
 ```
