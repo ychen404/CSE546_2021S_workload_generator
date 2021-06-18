@@ -17,7 +17,9 @@ def send_one_request(url, image_path):
     if r.status_code != 200:
         print('sendErr: '+r.url)
     else :
-        print(r.text)
+        image_msg = image_path.split('/')[1] + ' uploaded!'
+        msg = image_msg + '\n' + 'Classification result: ' + r.text
+        print(msg)
 
 num_request = args.num_request
 url = args.url
